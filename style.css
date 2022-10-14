@@ -1,0 +1,201 @@
+*{
+   
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  a, p, h1, h2, h3, h4 {
+    text-shadow: 1px 1px white;
+  }
+  
+  
+  
+
+body{
+    background-color: rgb(26, 6, 207); 
+    background-color: rgb(47, 47, 47);
+    height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content:center;
+  align-items:center;  
+  background: rgb(14, 13, 29);
+    
+}
+/* body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(47, 47, 47);
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+  }
+ */
+.main{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+.form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+input::placeholder{
+    color: aliceblue;
+    text-shadow: blue;
+}
+#nav{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 300px;
+    height: 600px;
+    
+    align-items: center;
+}
+
+button{
+    background-color: blue;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 1rem 1.5rem;
+    padding: 1rem 1.5rem;
+    border: 2px solid rgb(0, 0, 0);
+    cursor: pointer;
+    
+}
+#btnVender{
+    background-color: rgb(224, 224, 224);
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 1rem 1.5rem;
+    align-items: center;
+    
+}
+#btnCalcular{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 1rem 1.5rem;
+    align-items: center;
+}
+.nombre{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+
+    background-color: rgb(25, 60, 214);
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+    text-shadow: 20px;
+    
+}
+.todo{
+    text-align: wrap;
+    justify-content: center;
+    justify-items: column;
+}
+form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    gap: 20px;
+  }
+.section{
+    direction: ltr;
+    display: flex;
+}
+
+/* #div{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 300px;
+    height: 600px;
+    
+    align-items: center;
+} */
+/* #div1{
+    display: flex;
+    flex-direction: row;    
+    padding:10px;
+    align-items: center;
+} */
+.integrantes{
+    gap: 1px;
+    padding: 1px;
+    text-align:center;
+    color: rgb(252, 252, 252);
+    
+    text-shadow: 1px 1px rgb(35, 20, 252);
+    
+}
+.button{
+    background-color: blue;
+    font-weight: bold;
+    font-size: 1rem 1.5rem;
+    padding: 1rem 1.5rem;
+    border: 2px solid rgb(0, 0, 0);
+    cursor: pointer;
+    transition: all 1s ease;
+    border-radius: .5rem;
+    color: white;
+
+    box-shadow: .5rem .5rem 1rem aqua
+    -.5rem -.5rem 1rem rgb(0, 162, 255);
+
+}
+.button:hover{
+    box-shadow: .5rem .5rem 1rem rgb(0, 162, 255)
+    -.5rem -.5rem -1rem aqua;
+}
+
+.button:active{
+    box-shadow: inset .2rem 2rem 1rem rgb(0, 162, 255)
+    inset -.2rem -.2rem -1rem aqua;
+}
+/* #celulares{
+    border-left: 50px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50px;
+    color: white;
+background-color: blue;
+
+}
+#portatiles{
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50px;
+    color: white;
+background-color: blue; */
+    
+
+#img{
+    border-radius: 50px;
+    width: 200px;
+}
